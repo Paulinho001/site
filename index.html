@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>TECHLOCALIZA</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">TECHL<img src="img/Logo.png" alt="O">CALIZA</div>
+    <input type="text" placeholder="Buscar..." class="search">
+    <div class="toggle"></div>
+  </header>
+
+  <!-- BOTÃO MENU -->
+  <div class="menu-icon" onclick="toggleMenu()">
+    ☰
+  </div>
+
+  <!-- OVERLAY -->
+  <div id="overlay" onclick="toggleMenu()"></div>
+
+  <!-- MENU LATERAL -->
+  <nav id="sideMenu" class="side-menu">
+    <a href="#">Home</a>
+    <a href="#">Produtos</a>
+    <a href="#">Contato</a>
+  </nav>
+
+  <!-- BANNER -->
+  <section class="banner">
+    <div class="banner-content">
+      <h1>Jogue em nível máximo.<br>Crie sem pausas.</h1>
+      <button>Ver Mais</button>
+    </div>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section class="products">
+
+    <div class="card">
+      <img src="img/images.jpeg" alt="Placa de vídeo">
+      <p>Placa de Vídeo RX 7600</p>
+      <span class="price">R$ 2.799,99</span>
+    </div>
+
+    <div class="card">
+      <img src="img2.png" alt="Processador">
+      <p>Ryzen 7</p>
+      <span class="price">R$ 1.299,99</span>
+    </div>
+
+  </section>
+
+  <!-- JS SEMPRE NO FINAL -->
+  <script src="script.js"></script>
+
+
+
+
+
+</body>
+</html>
